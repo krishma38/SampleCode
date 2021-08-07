@@ -2,17 +2,17 @@ package firstcode;
 
 class main {
     public static void main(String[] args) {
-        int[] boo = {0, 1, 2, 3, 4};
+        int[] array1 = {0, 1, 2, 3, 4};
 
-        int[] bar = new int[100];
+        int[] array2 = new int[100];
         for(int i = 0; i < 100; i++){
-            bar[i] = i;
+            array2[i] = i;
         }
-        System.out.println("The number of even numbers in boo is:");
-        System.out.println(countEvenNum(boo, 5));
+        System.out.println("The number of even numbers in array1 is:");
+        System.out.println(countEvenNum(array1, 5));
 
-        System.out.println("The number of even numbers in bar is:");
-        System.out.println(countEvenNum(bar, 100));
+        System.out.println("The number of even numbers in array2 is:");
+        System.out.println(countEvenNum(array2, 100));
 
     }
 
